@@ -1,0 +1,22 @@
+
+
+
+.owl-stage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.owl-item{
+  margin-top: 20px;
+}
+
+.owl-carousel .owl-item img {
+  width: 60%;
+  border-radius: 50%;
+}
+
+.owl-carousel .owl-item.active.center img {
+  width: 100%;
+  margin-left: -40px;
+}
